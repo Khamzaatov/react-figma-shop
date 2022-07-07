@@ -1,0 +1,109 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+    height: 1000px;
+    display: flex;
+}
+
+.header {
+    width: 350px;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.list {
+    margin-left: 35px;
+}
+
+.list li {
+    list-style-type: none;
+}
+   
+.section {
+    width: 1000px;
+    height: 700px;
+}
+
+.basket {
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+
+.basket img{
+  width: 70px;
+}
+.section {
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products div {
+    width: 300px;
+    flex-direction: column;
+}
+
+.products div p{
+    color: rgb(108, 99, 99);
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.products div img {
+  margin-left: 48px;
+  height: 230px;
+}
+
+.products div b {
+ margin-left: 20px;
+ font-size: 21px;
+}
+
+.products div button {
+  background-color: #00bfff;
+  color : #ffffff;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.class4 {
+  margin-top: 50px;
+}
+
+.class5 {
+  margin-top: 50px;
+}
+
+.class6 {
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
